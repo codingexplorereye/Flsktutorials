@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+    {% block for %}
+    {% for i in content %}
+            {% if i == "taylor"%}
+                <p>Blank Space</p>
+            {% else %}
+                <p> Heathens </p>
+            {% endif %}
+        {% endfor %}
+    {% endblock %}
+
